@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "URL Unwrapper",
+    "description": "Unwraps link with parameter 'url'",
+    "version": "0.1.1",
+    "homepage_url": "http://nok.it/secure_download_link",
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "{f982ea74-802a-4fd0-9c23-b0b33291454f}",
+          "strict_min_version": "56.0"
+        }
+    },
+    "icons": {
+        "48": "unwrapper-logo-48.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "clipboardWrite"
+    ]
+}
